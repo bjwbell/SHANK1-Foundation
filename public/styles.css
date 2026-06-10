@@ -57,9 +57,9 @@ li { margin-bottom: 0.55rem; }
 }
 
 .brand-logo {
-  width: 48px;
-  height: 48px;
-  border-radius: 15px;
+  width: 34px;
+  height: 34px;
+  border-radius: 12px;
   object-fit: contain;
   background: white;
   box-shadow: 0 8px 18px rgba(24, 41, 65, 0.16);
