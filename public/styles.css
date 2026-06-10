@@ -56,6 +56,15 @@ li { margin-bottom: 0.55rem; }
   margin-right: auto;
 }
 
+.brand-logo {
+  width: 48px;
+  height: 48px;
+  border-radius: 15px;
+  object-fit: contain;
+  background: white;
+  box-shadow: 0 8px 18px rgba(24, 41, 65, 0.16);
+}
+
 .brand-mark {
   display: grid;
   place-items: center;
