@@ -41,15 +41,152 @@
           <a class="button secondary" href="#foundation">Learn About the Foundation</a>
         </div>
       </div>
+<div class="hero-card shank1-community">
+  <svg
+    class="community-illustration"
+    viewBox="0 0 560 440"
+    role="img"
+    aria-labelledby="community-title community-description"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <title id="community-title">The SHANK1 community</title>
+    <desc id="community-description">
+      Families, researchers, clinicians, and advocates connected around SHANK1.
+    </desc>
 
-      <div class="hero-card" aria-label="SHANK1 community illustration">
-        <div class="orbit orbit-one"></div>
-        <div class="orbit orbit-two"></div>
-        <div class="node node-a"></div>
-        <div class="node node-b"></div>
-        <div class="node node-c"></div>
-      </div>
-    </section>
+    <defs>
+      <linearGradient id="community-bg" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#f5fbff" />
+        <stop offset="100%" stop-color="#e7f4f1" />
+      </linearGradient>
+
+      <linearGradient id="center-gradient" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#176b87" />
+        <stop offset="100%" stop-color="#15947e" />
+      </linearGradient>
+
+      <filter id="community-shadow" x="-30%" y="-30%" width="160%" height="160%">
+        <feDropShadow
+          dx="0"
+          dy="10"
+          stdDeviation="12"
+          flood-color="#17475a"
+          flood-opacity=".15"
+        />
+      </filter>
+    </defs>
+
+    <!-- Background -->
+    <rect
+      class="community-background"
+      x="12"
+      y="12"
+      width="536"
+      height="416"
+      rx="38"
+      fill="url(#community-bg)"
+    />
+
+    <!-- Decorative molecular dots -->
+    <g class="molecular-dots" aria-hidden="true">
+      <circle cx="78" cy="82" r="5" />
+      <circle cx="104" cy="64" r="3" />
+      <circle cx="482" cy="76" r="4" />
+      <circle cx="505" cy="101" r="3" />
+      <circle cx="73" cy="356" r="4" />
+      <circle cx="490" cy="358" r="5" />
+    </g>
+
+    <!-- Community connections -->
+    <g class="community-connections" aria-hidden="true">
+      <path d="M280 220 C220 155 170 128 116 118" />
+      <path d="M280 220 C340 155 390 128 444 118" />
+      <path d="M280 220 C218 280 169 309 116 322" />
+      <path d="M280 220 C342 280 391 309 444 322" />
+
+      <path class="secondary-connection" d="M116 118 C82 183 82 255 116 322" />
+      <path class="secondary-connection" d="M444 118 C478 183 478 255 444 322" />
+    </g>
+
+    <!-- Families -->
+    <g class="community-node node-families" transform="translate(116 118)">
+      <circle class="node-ring" r="58" />
+      <circle class="node-surface" r="48" />
+
+      <g class="node-icon" transform="translate(-22 -20)" aria-hidden="true">
+        <circle cx="13" cy="10" r="8" />
+        <circle cx="32" cy="15" r="7" />
+        <path d="M1 38c1-11 7-17 15-17s14 6 15 17" />
+        <path d="M23 40c1-9 6-14 12-14s11 5 12 14" />
+      </g>
+
+      <text class="node-label" y="79" text-anchor="middle">Families</text>
+    </g>
+
+    <!-- Researchers -->
+    <g class="community-node node-researchers" transform="translate(444 118)">
+      <circle class="node-ring" r="58" />
+      <circle class="node-surface" r="48" />
+
+      <g class="node-icon" transform="translate(-20 -24)" aria-hidden="true">
+        <path d="M14 2h12" />
+        <path d="M18 2v15L7 37a8 8 0 0 0 7 12h12a8 8 0 0 0 7-12L22 17V2" />
+        <path d="M12 34h16" />
+        <circle cx="17" cy="40" r="2" />
+        <circle cx="24" cy="37" r="2" />
+      </g>
+
+      <text class="node-label" y="79" text-anchor="middle">Researchers</text>
+    </g>
+
+    <!-- Clinicians -->
+    <g class="community-node node-clinicians" transform="translate(116 322)">
+      <circle class="node-ring" r="58" />
+      <circle class="node-surface" r="48" />
+
+      <g class="node-icon" transform="translate(-22 -22)" aria-hidden="true">
+        <path d="M22 2v34" />
+        <path d="M5 19h34" />
+        <rect x="5" y="2" width="34" height="34" rx="9" />
+      </g>
+
+      <text class="node-label" y="79" text-anchor="middle">Clinicians</text>
+    </g>
+
+    <!-- Advocates -->
+    <g class="community-node node-advocates" transform="translate(444 322)">
+      <circle class="node-ring" r="58" />
+      <circle class="node-surface" r="48" />
+
+      <g class="node-icon" transform="translate(-23 -21)" aria-hidden="true">
+        <path d="M23 42S4 31 4 16C4 8 9 3 16 3c4 0 7 2 9 6 2-4 5-6 9-6 7 0 12 5 12 13 0 15-23 26-23 26Z" />
+      </g>
+
+      <text class="node-label" y="79" text-anchor="middle">Advocates</text>
+    </g>
+
+    <!-- Central SHANK1 hub -->
+    <g class="shank1-center" transform="translate(280 220)" filter="url(#community-shadow)">
+      <circle class="center-halo" r="91" />
+      <circle class="center-circle" r="72" fill="url(#center-gradient)" />
+
+      <!-- Simplified synaptic bridge -->
+      <g class="synapse-symbol" transform="translate(-34 -24)" aria-hidden="true">
+        <path d="M4 15c12-10 21-10 31 0" />
+        <path d="M33 33c12-10 21-10 31 0" />
+        <circle cx="8" cy="11" r="4" />
+        <circle cx="21" cy="8" r="3" />
+        <circle cx="36" cy="19" r="4" />
+        <circle cx="49" cy="26" r="3" />
+        <circle cx="63" cy="29" r="4" />
+      </g>
+
+      <text class="center-title" y="30" text-anchor="middle">SHANK1</text>
+      <text class="center-subtitle" y="49" text-anchor="middle">Community</text>
+    </g>
+  </svg>
+  </div>
+  </section>
 
     <section id="about-shank1" class="split section-pad">
       <div>
