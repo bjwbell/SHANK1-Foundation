@@ -225,6 +225,7 @@ li { margin-bottom: 0.55rem; }
 .news-card .date { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--coral); font-weight: 900; }
 
 .foundation { background: var(--cream); }
+.news { background: var(--cream); }
 .dash-list { list-style: none; padding-left: 0; }
 .dash-list li { padding-left: 1.2rem; position: relative; }
 .dash-list li::before { content: "–"; position: absolute; left: 0; }
